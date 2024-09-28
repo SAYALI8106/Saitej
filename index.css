@@ -252,3 +252,24 @@ body {
         min-width: 120px;
     }
 }
+.love-message {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #FF8BA0;
+    text-align: center;
+    margin-top: 10px;
+    display: none; /* Initially hidden */
+    animation: pulse 1.5s infinite; /* Add pulse animation */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); /* Scale up to 110% */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
